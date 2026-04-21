@@ -11,8 +11,8 @@ function App() {
     <div>
       <Navbar/>
       <Accueil/>
-      <APropos/>
       <Techno/>
+      <APropos/>
       <Projet/>
     </div>
   )
