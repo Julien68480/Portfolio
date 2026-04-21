@@ -1,18 +1,15 @@
 const Accueil = () => {
-    return (
-        <div className="md:m-15 md:ml-24">
-            <h1 className="text-4xl md:text-5xl mt-6 md:mt-10 text-center md:text-left">
-                Bonjour,<br/>
-                je m'appelle{" "}
-                <span className="text-accent font-bold">
-                Julien
-                </span><br/>
-            </h1>
-            <h2 className="text-1xl md:text-2xl text-center md:text-left  mt-4 md:mt-6 mb-50">
-                Étudiant en Licence Pro <span className="text-warning font-bold">|</span> Développeur Web
-            </h2>
-        </div>
-    )
-}
+  return (
+    <div className="md:m-15 md:ml-24">
+      <h1 className="text-4xl md:text-5xl mt-6 md:mt-10 text-center md:text-left">
+        Bienvenue sur mon portfolio.<br /> 
+        Je m’appelle <span className="text-info font-bold">Julien Simon</span>,<br />  
+        développeur web full-stack junior,<br />  
+        actuellement étudiant <br /> 
+        en <span className="text-info font-bold">Licence Professionnelle Développement Logiciels</span>.
+      </h1>
+    </div>
+  );
+};
 
-export default Accueil
+export default Accueil;
