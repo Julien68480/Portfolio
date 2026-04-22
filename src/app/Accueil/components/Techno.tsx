@@ -58,28 +58,32 @@ const techs = [
     id: 12,
     name: "hibernate",
     src: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/hibernate/hibernate-original.svg",
-  }
+  },
 ];
 
 const Techno = () => {
   return (
     <section className="mt-34 px-6">
-      <div className="mx-auto max-w-6xl">
-        <h4 className="text-3xl md:text-4xl font-bold text-center text-accent mb-10">
+      <div className="max-w-5xl ml-auto">
+        <h4 className="text-3xl md:text-4xl font-bold text-center text-accent mb-8">
           Technologies
         </h4>
 
-        <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-6 rounded-3xl border border-neutral bg-base-100 p-6 md:p-8 shadow-sm">
+        <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4 rounded-3xl border border-neutral bg-base-100 p-4 md:p-6 shadow-sm">
           {techs.map((tech) => (
             <div
               key={tech.id}
-              className="flex items-center justify-center bg-neutral-content rounded-2xl p-4 transition hover:scale-105"
+              className="flex flex-col items-center justify-center bg-neutral-content rounded-2xl p-3 transition hover:scale-105"
             >
               <img
-                className="h-20 w-20 object-contain md:h-24 md:w-24"
+                className="h-16 w-16 object-contain md:h-20 md:w-20"
                 src={tech.src}
                 alt={tech.name}
               />
+
+              <p className="mt-2 text-sm font-semibold text-center text-base-200">
+                {tech.name}
+              </p>
             </div>
           ))}
         </div>
