@@ -5,8 +5,8 @@ const Accueil = () => {
         Bienvenue sur mon portfolio.<br /> 
         Je m’appelle <span className="text-info font-bold">Julien Simon</span>,<br />  
         développeur web full-stack junior,<br />  
-        actuellement étudiant <br /> 
-        en <span className="text-info font-bold">Licence Professionnelle Développement Logiciels</span>.
+        actuellement étudiant en  <br /> 
+        <span className="text-info font-bold">Licence Professionnelle Développement Logiciels</span>.
       </h1>
     </div>
   );

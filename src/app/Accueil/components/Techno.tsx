@@ -49,6 +49,16 @@ const techs = [
     name: "postman",
     src: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postman/postman-original.svg",
   },
+  {
+    id: 11,
+    name: "docker",
+    src: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-original.svg",
+  },
+  {
+    id: 12,
+    name: "hibernate",
+    src: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/hibernate/hibernate-original.svg",
+  }
 ];
 
 const Techno = () => {
@@ -63,7 +73,7 @@ const Techno = () => {
           {techs.map((tech) => (
             <div
               key={tech.id}
-              className="flex items-center justify-center rounded-2xl bg-base-200/40 p-4 transition hover:scale-105"
+              className="flex items-center justify-center bg-neutral-content rounded-2xl p-4 transition hover:scale-105"
             >
               <img
                 className="h-20 w-20 object-contain md:h-24 md:w-24"
