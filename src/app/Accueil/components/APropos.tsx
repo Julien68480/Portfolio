@@ -1,9 +1,15 @@
 const APropos = () => {
   return (
     <div>
+      <h4
+        id="projets"
+        className="scroll-mt-24 text-3xl md:text-4xl mt-30 font-bold text-center text-accent mb-8"
+      >
+        À propos
+      </h4>
       <p
         id="propos"
-        className="scroll-mt-24 md:m-15 md:ml-24 text-1xl md:text-2xl mt-6 md:mt-40 text-center md:text-left w-235"
+        className="scroll-mt-24 md:m-15 md:ml-24 text-1xl md:text-2xl mt-6 md:mt-10 text-center md:text-left w-235"
       >
         <span className="text-info font-bold">Développeur</span> web en
         reconversion professionnelle et actuellement étudiant en

@@ -15,14 +15,16 @@ const MesProjets = [
     image: imgFR1,
     description: DescritpionFilRouge1,
     git: "https://github.com/Julien68480/FilRouge",
-    introduction: "J'ai développé une application web complète de A à Z. Le front-end est construit avec HTML, CSS et JavaScript. Le back-end repose sur PHP et une base de données MySQL.",
+    introduction:
+      "J'ai développé une application web complète de A à Z. Le front-end est construit avec HTML, CSS et JavaScript. Le back-end repose sur PHP et une base de données MySQL.",
   },
   {
     id: 2,
     name: "Kageko",
     image: imgKageko,
     description: DescriptionKageko,
-    introduction: "J'ai réalisé une refactorisation complète d'une application web Symfony. J'ai appliqué les bonnes pratiques de l'architecture MVC tout au long du projet.",
+    introduction:
+      "J'ai réalisé une refactorisation complète d'une application web Symfony. J'ai appliqué les bonnes pratiques de l'architecture MVC tout au long du projet.",
   },
   {
     id: 3,
@@ -30,7 +32,8 @@ const MesProjets = [
     image: imgPRH,
     description: DescriptionPRH68,
     lien: "https://prh68.fr/",
-    introduction: "J'ai développé une solution web sur mesure basée sur WordPress. Ce projet comprend deux volets principaux. J'ai créé la page d'accueil du site et développé un plugin personnalisé de gestion des locations.",
+    introduction:
+      "J'ai développé une solution web sur mesure basée sur WordPress. Ce projet comprend deux volets principaux. J'ai créé la page d'accueil du site et développé un plugin personnalisé de gestion des locations.",
   },
   {
     id: 4,
@@ -38,7 +41,8 @@ const MesProjets = [
     image: imgFR2,
     description: DescritpionFilRouge2,
     git: "https://github.com/Julien68480/FilRouge4.0.2",
-    introduction: "J'ai développé une application web full-stack autour de la génération de parcours narratifs. Le backend repose sur Java avec Spring Boot. Le frontend est construit avec React.",
+    introduction:
+      "J'ai développé une application web full-stack autour de la génération de parcours narratifs. Le backend repose sur Java avec Spring Boot. Le frontend est construit avec React.",
   },
 ];
 
@@ -54,7 +58,7 @@ const Projet = () => {
     <>
       <h4
         id="projets"
-        className="scroll-mt-24 text-3xl md:text-4xl mt-20 font-bold text-center text-accent mb-8"
+        className="scroll-mt-24 text-3xl md:text-4xl mt-30 font-bold text-center text-accent mb-8"
       >
         Projets
       </h4>
@@ -78,7 +82,7 @@ const Projet = () => {
               {projet.name}
             </h3>
 
-            {projet.introduction }
+            {projet.introduction}
 
             <div className="mt-auto pt-4">
               <button className="btn btn-outline btn-accent w-full sm:w-auto">
